@@ -684,5 +684,5 @@ if __name__ == '__main__':
     port = int(os.environ.get("PORT", WEBHOOK_PORT))
 
     # Run the Flask application, binding to all network interfaces
-    app.run(host='0.0.0.0', port=port, ssl_context='adhoc')
+    app.run(host='0.0.0.0', port=port)
 
